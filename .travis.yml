@@ -11,5 +11,7 @@ deploy:
     secure: 'L7zKidkJ+S5QUDsjHmjJQGIu++VIRCxHJBBPVrE0e6wYncFjXmIfxppR7PS3ybylD+PkzM+Q9kuCTN7EzziQAiqS1lTFxnhS+X25uCE4JDremMadKasEeFqOsbhddqSBm43xqQMxlpnWnggpb+gTbpZWjxVCyg53LiLOZAsP1wpRD4YYrGUS1YQ40v3JwuAmvK7j73ZAtn6x8VDpTjPEBmmTfHZjp7M8CFtYQgg7peaLm50NbRSTo5Bg/Nqw8iazgG8Fmy+E0taHQfKhPVpkk+COl5y1E2o2/ZSOsKq2DKTVwY9zqND74AdhGZGXuo2uI74zXwbWaXFartX6agbdM0Z8NH1vUUBh2KGX65kXG6AS3prRWbKsK9QE3oq0alC5zcOra56w7hdySCN2hPDgx/mxbTU88s49JwaqvEVlaawvQymxk4pSWdo5BmYn0dQLQQeNJlks7GTkyw9sydx7bqWNsrc2gMRPAxhxZpITwiH3mywGGb5OiYhw2UAlLlSdeBB7w9Jx64Mz9JU9jpivrmSQU8mEfmJAvM2tgCOnfdecblmabbtjB97hUNdzP5mCiFCkSpwIn7ylzuHUuiWiyjMEi7dzyXhFwo/8Dz95x/a/3KINZU+vCJ3018E1LMC+Jfqoh/FDHDb9bN80P73/QV+pwioaUzE1dF6qiWPlBag='
   region: eu-central-1
   app: node-typescript-test
-  env: e-mzkjcpazxp
-  bucket_name: node-typescript-test-bucket
+  env: e-th4ycm3tek
+  bucket_name: elasticbeanstalk-eu-central-1-330666908685
+  on:
+    branch: master
