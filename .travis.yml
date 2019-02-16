@@ -5,6 +5,7 @@ services:
   - docker
 deploy:
   provider: elasticbeanstalk
+  edge: true
   access_key_id:
     secure: 'MLCoCJhGN2gHCd+Ph7+WPoSYRi5raYHu0EEgWcgnIbvduarx+/sHp9LU1auKmdHs+axSIwH8FtDbgn91SSLRmbicV6MoiqUGANLNbOZ3EICSvOkx+FvXLwHdY2RvCO9Kxh/OiSNDKJLMUNidbmBGTg/x9EG/0Zf8uQwG4NwfU520MuA0Rn+Z3FkO8HB7M7THwgFcC77tRQKOv/myb/+nxa0zU7VszCAdnD4mipEeiFjiLcQGZ5A6WNWxqXBcyW6ep9ceBbvR+qax4Sj3Jds+JW/d7k6FNCGlRZHkE14/BrGHZ4DMc/eQbbmhQbGGiGY5TbPQxDo1TN5WpBXjcVAlD5bWYAkMBwAGHQM0HEK2pkBr5PbkHbU8aEiFnSQic90PLVGYTwbrg2dlCrDZSLJn/jyriD2V+vN3JuK7rf2MCHTpxkGUn+NLB/nFaUwLRtNLrXbrRHHeQYPf79Ck/zXw6XOSMJMZSdrk+SU9W/t/kcKAIkehU3RSHPEZ7VY94xLxItaoy8/NxwwdWsB8ma8KgeCs0V1JIj3cHnVXW9i/sXZpe7Lksg4ni/lfpNUuK3tqon6HopIKB4JPT+ptGf8pCs2IKocSb8anpsdmX0By9MEQV3dnmLDiHTYM71Y7Pwtt6k8FkZW4c/yW+4FpEyabwWnLRfD/UNl3cIUONRUn66k='
   secret_access_key:
